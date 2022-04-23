@@ -4,8 +4,9 @@ pessoa = input("Insira seu primeiro nome: ")
 valor = input("Insira seu salário do mês de abril: ")
 
 parte1valor = valor[0:1]
-parte2valor = valor[1:3]
+parte2valor = valor[1:4]
 
-pessoavalor = "O salário de" + pessoa + "no mês de abril foi de R$" + parte1valor + "." + parte2valor + "," + "00" + "reais" 
+
+pessoavalor = "O salário de " + pessoa + " no mês de abril foi de R$" + parte1valor + "." + parte2valor + "," + "00" + "reais" 
 
 print(pessoavalor)
